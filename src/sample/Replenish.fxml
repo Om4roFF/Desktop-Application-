@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane" stylesheets="@../styles/My.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ReplenishController">
+    <children>
+        <Text fill="WHITE" layoutX="126.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Accounts" textAlignment="CENTER" wrappingWidth="347.6708984375">
+            <font>
+                <Font name="AdobeDevanagari-BoldItalic" size="47.0" />
+            </font></Text>
+        <Button fx:id="BackButton" layoutX="474.0" layoutY="349.0" mnemonicParsing="false" onAction="#BackButton" text="Backwards">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+      <Text fill="WHITE" layoutX="77.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter account" textAlignment="CENTER">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="32.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ReplenishLoginButton" layoutX="67.0" layoutY="200.0" />
+      <TextField fx:id="ReplenishMoneyButton" layoutX="353.0" layoutY="200.0" />
+      <Text fill="WHITE" layoutX="361.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter amount" textAlignment="CENTER">
+         <font>
+            <Font name="AdobeDevanagari-BoldItalic" size="32.0" />
+         </font>
+      </Text>
+      <Button fx:id="OkButton" layoutX="277.0" layoutY="274.0" mnemonicParsing="false" onAction="#OkButton" text="OK" />
+    </children>
+</AnchorPane>

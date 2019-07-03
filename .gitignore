@@ -1,0 +1,13 @@
+# IntellIJ working folders/files
+.idea/
+MyFinalProject.iml
+
+# vscode working folders/files
+.vscode/
+.settings/
+.classpath
+.project
+
+# binary files
+out/
+bin/

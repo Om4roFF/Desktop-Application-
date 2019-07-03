@@ -1,0 +1,13 @@
+.AnchorPane{
+-fx-background-image:url(Fon6.jpg);
+}
+
+.button{
+ -fx-color:black;
+ -fx-border-color:white;
+ -fx-border-width:2px;
+}
+
+.TextField{
+     -fx-border-radius:30px;
+}
